@@ -1,10 +1,9 @@
 # Installation
-1. Make the script executable:
+1. make the installer.sh executable:
 ```
-chmod +x whatday.sh
+chmod +x installer.sh
 ```
-2. then move it to the bin folder for easy access:
-
+2. run the installer:
 ```
-mv whatday.sh /usr/local/bin/whatday
+./installer.sh
 ```
