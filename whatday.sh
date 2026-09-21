@@ -5,18 +5,18 @@ var=$(LC_TIME=C date)
 # delete everything but the first word (better than using awk)
 result=${var%% *}
 
-if [ $result == "Sun" ]; then
+if [ $result = "Sun" ]; then
   echo "Sunday"
-elif [ $result == "Mon" ]; then
+elif [ $result = "Mon" ]; then
   echo "Monday"
-elif [ $result == "Tue" ]; then
+elif [ $result = "Tue" ]; then
   echo "Tuesday"
-elif [ $result == "Wed" ]; then
+elif [ $result = "Wed" ]; then
   echo "Wednesday"
-elif [ $result == "Thu" ]; then
+elif [ $result = "Thu" ]; then
  echo "Thursday" 
-elif [ $result == "Fri" ]; then
+elif [ $result = "Fri" ]; then
   echo "Friday"
-elif [ $result == "Sat" ]; then
+elif [ $result = "Sat" ]; then
   echo "Saturday"
 fi
